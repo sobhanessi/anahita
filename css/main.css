@@ -11,3 +11,7 @@
     margin: 0 10% 0 10%;
   } */
 }
+
+a {
+  text-decoration: none;
+}
