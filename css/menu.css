@@ -1,35 +1,35 @@
 @media screen and (max-width: 512px) and (min-width: 1px) {
   .menuItem {
     width: 90%;
-    margin: 5%;
+    margin: 5% 5% 10% 5%;
     padding-bottom: 1%;
   }
 
   .menuItemImage {
-    max-width: 80%;
-    max-height: 80%;
-    position: absolute;
-    transform: translate(-5%, -10%);
+    width: 80%;
+    height: 80%;
+    /* position: absolute; */
+    transform: translate(-10%, -20%);
   }
   .menuItemDescription {
-    left: 22%;
+    transform: translateX(-5%);
   }
 }
 @media screen and (max-width: 768px) and (min-width: 513px) {
   .menuItem {
     width: 90%;
     margin: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
   }
 
   .menuItemImage {
-    max-width: 90%;
-    max-height: 90%;
-    position: absolute;
-    transform: translate(-5%, -10%);
+    width: 80%;
+    height: 80%;
+    /* position: absolute; */
+    transform: translate(-10%, -25%);
   }
   .menuItemDescription {
-    left: 22%;
+    transform: translateX(-5%);
   }
 }
 
@@ -37,18 +37,18 @@
   .menuItem {
     width: 80%;
     margin: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     position: relative;
   }
 
   .menuItemImage {
-    max-width: 100%;
-    max-height: 100%;
-    position: absolute;
-    transform: translate(-5%, -10%);
+    width: 80%;
+    height: 80%;
+    /* position: absolute; */
+    transform: translate(-10%, -25%);
   }
   .menuItemDescription {
-    left: 20%;
+    transform: translateX(-5%);
   }
 }
 
@@ -56,18 +56,18 @@
   .menuItem {
     width: 50%;
     margin: 5% 25% 5% 25%;
-    padding-bottom: 5%;
-    position: relative;
+    padding-bottom: 2%;
+    /* position: relative; */
   }
   .menuItemImage {
-    max-width: 100%;
-    max-height: 100%;
-    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
     transform: translate(-10%, -25%);
   }
-  .menuItemDescription {
-    left: 25%;
-  }
+  /* .menuItemDescription {
+    transform: translateX(-5%);
+  } */
 }
 
 main {
@@ -76,9 +76,9 @@ main {
 }
 
 .menuItem {
-  position: relative;
-  /* display: flex;
-  flex-direction: row; */
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
   background-color: rgb(235, 227, 217);
 }
 .menuItemImageDiv {
@@ -88,7 +88,6 @@ main {
 .menuItemDescription {
   width: 68%;
   padding-top: 10px;
-  position: relative;
 }
 
 .menuItemParagraph {
