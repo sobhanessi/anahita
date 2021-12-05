@@ -1,8 +1,13 @@
 @media screen and (max-width: 512px) and (min-width: 1px) {
-  .menuItem {
+  .menuItem,
+  .menuItemBeverages {
     width: 90%;
     margin: 5% 5% 10% 5%;
     padding-bottom: 1%;
+  }
+
+  .menuItemBeverages {
+    padding-top: 1%;
   }
 
   .menuItemImage {
@@ -17,10 +22,14 @@
 }
 @media screen and (max-width: 768px) and (min-width: 513px) {
   .menuItem,
+  .menuItemBeverages,
   .foodHeader {
     width: 90%;
     margin: 5%;
     padding-bottom: 2%;
+  }
+  .menuItemBeverages {
+    padding-top: 2%;
   }
 
   .menuItemImage {
@@ -36,11 +45,15 @@
 
 @media screen and (max-width: 1025px) and (min-width: 769px) {
   .menuItem,
+  .menuItemBeverages,
   .foodHeader {
     width: 80%;
     margin: 10%;
     padding-bottom: 2%;
     position: relative;
+  }
+  .menuItemBeverages {
+    padding-top: 2%;
   }
 
   .menuItemImage {
@@ -56,11 +69,15 @@
 
 @media screen and (min-width: 1026px) {
   .menuItem,
+  .menuItemBeverages,
   .foodHeader {
     width: 50%;
     margin: 5% 25% 5% 25%;
     padding-bottom: 2%;
     /* position: relative; */
+  }
+  .menuItemBeverages {
+    padding-top: 2%;
   }
   .menuItemImage {
     width: 100%;
