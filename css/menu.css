@@ -1,6 +1,7 @@
 @media screen and (max-width: 512px) and (min-width: 1px) {
   .menuItem,
-  .menuItemBeverages {
+  .menuItemBeverages,
+  .foodHeader {
     width: 90%;
     margin: 5% 5% 10% 5%;
     padding-bottom: 1%;
@@ -120,4 +121,8 @@ main {
 }
 .menuItemHeader {
   width: 100%;
+}
+
+.foodHeader {
+  padding: 0;
 }
