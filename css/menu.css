@@ -107,11 +107,11 @@ main {
 }
 
 .menuItemDescription {
-  width: 50%;
+  width: 58%;
   padding-top: 10px;
 }
 .price {
-  width: 8%;
+  width: 12%;
   font-weight: bold;
 }
 
