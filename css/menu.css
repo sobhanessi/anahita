@@ -16,7 +16,8 @@
   }
 }
 @media screen and (max-width: 768px) and (min-width: 513px) {
-  .menuItem {
+  .menuItem,
+  .foodHeader {
     width: 90%;
     margin: 5%;
     padding-bottom: 2%;
@@ -34,7 +35,8 @@
 }
 
 @media screen and (max-width: 1025px) and (min-width: 769px) {
-  .menuItem {
+  .menuItem,
+  .foodHeader {
     width: 80%;
     margin: 10%;
     padding-bottom: 2%;
@@ -53,7 +55,8 @@
 }
 
 @media screen and (min-width: 1026px) {
-  .menuItem {
+  .menuItem,
+  .foodHeader {
     width: 50%;
     margin: 5% 25% 5% 25%;
     padding-bottom: 2%;
@@ -86,8 +89,12 @@ main {
 }
 
 .menuItemDescription {
-  width: 68%;
+  width: 58%;
   padding-top: 10px;
+}
+.price {
+  width: 8%;
+  font-weight: bold;
 }
 
 .menuItemParagraph {
