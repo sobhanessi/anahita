@@ -182,37 +182,37 @@
   #header1,
   #header5,
   #header6 {
-    content: url("../pics/header_2_mobile.jpg");
+    content: url("../pics/homePage/header_2_mobile.jpg");
   }
   #header2 {
-    content: url("../pics/header_1_mobile.jpg");
+    content: url("../pics/homePage/header_1_mobile.jpg");
   }
   #header3 {
-    content: url("../pics/header_3_mobile.jpg");
+    content: url("../pics/homePage/header_3_mobile.jpg");
   }
   #header4 {
-    content: url("../pics/header_4_mobile.jpg");
+    content: url("../pics/homePage/header_4_mobile.jpg");
   }
 }
 
 @media screen and (min-width: 769px) {
   #header1 {
-    content: url("../pics/header_1_pc.jpg");
+    content: url("../pics/homePage/header_1_pc.jpg");
   }
   #header2 {
-    content: url("../pics/header_2_pc.jpg");
+    content: url("../pics/homePage/header_2_pc.jpg");
   }
   #header3 {
-    content: url("../pics/header_3_pc.jpg");
+    content: url("../pics/homePage/header_3_pc.jpg");
   }
   #header4 {
-    content: url("../pics/header_4_pc.jpg");
+    content: url("../pics/homePage/header_4_pc.jpg");
   }
   #header5 {
-    content: url("../pics/header_5_pc.jpg");
+    content: url("../pics/homePage/header_5_pc.jpg");
   }
   #header6 {
-    content: url("../pics/header_7_pc.jpg");
+    content: url("../pics/homePage/header_7_pc.jpg");
   }
 }
 
