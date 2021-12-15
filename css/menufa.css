@@ -1,0 +1,128 @@
+@media screen and (max-width: 512px) and (min-width: 1px) {
+  .menuItem,
+  .menuItemBeverages,
+  .foodHeader {
+    width: 90%;
+    margin: 5% 5% 10% 5%;
+    padding-bottom: 1%;
+  }
+
+  .menuItemBeverages {
+    padding-top: 1%;
+  }
+
+  .menuItemImage {
+    width: 80%;
+    height: 80%;
+    /* position: absolute; */
+    transform: translate(10%, -20%);
+  }
+  .menuItemDescription {
+    transform: translateX(5%);
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 513px) {
+  .menuItem,
+  .menuItemBeverages,
+  .foodHeader {
+    width: 90%;
+    margin: 5%;
+    padding-bottom: 2%;
+  }
+  .menuItemBeverages {
+    padding-top: 2%;
+  }
+
+  .menuItemImage {
+    width: 80%;
+    height: 80%;
+    /* position: absolute; */
+    transform: translate(10%, -25%);
+  }
+  .menuItemDescription {
+    transform: translateX(5%);
+  }
+}
+
+@media screen and (max-width: 1025px) and (min-width: 769px) {
+  .menuItem,
+  .menuItemBeverages,
+  .foodHeader {
+    width: 80%;
+    margin: 10%;
+    padding-bottom: 2%;
+    position: relative;
+  }
+  .menuItemBeverages {
+    padding-top: 2%;
+  }
+
+  .menuItemImage {
+    width: 80%;
+    height: 80%;
+    /* position: absolute; */
+    transform: translate(10%, -25%);
+  }
+  .menuItemDescription {
+    transform: translateX(5%);
+  }
+}
+
+@media screen and (min-width: 1026px) {
+  .menuItem,
+  .menuItemBeverages,
+  .foodHeader {
+    width: 50%;
+    margin: 5% 25% 5% 25%;
+    padding-bottom: 2%;
+    /* position: relative; */
+  }
+  .menuItemBeverages {
+    padding-top: 2%;
+  }
+  .menuItemImage {
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+    transform: translate(10%, -25%);
+  }
+  /* .menuItemDescription {
+      transform: translateX(-5%);
+    } */
+}
+
+main {
+  width: 100%;
+  padding: 10% 0 5% 0;
+}
+
+.menuItem {
+  /* position: relative; */
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(235, 227, 217);
+}
+.menuItemImageDiv {
+  width: 30%;
+}
+
+.menuItemDescription {
+  width: 55%;
+  padding-top: 10px;
+}
+.price {
+  width: 15%;
+  font-weight: bold;
+}
+
+.menuItemParagraph {
+  width: 100%;
+  padding: 0;
+}
+.menuItemHeader {
+  width: 100%;
+}
+
+.foodHeader {
+  padding: 0;
+}
