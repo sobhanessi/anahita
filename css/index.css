@@ -229,9 +229,9 @@ nav {
   position: relative;
 }
 
-.carousel-item img {
+/* .carousel-item img {
   opacity: 0.5;
-}
+} */
 
 .carousel-caption h6 {
   font-size: 3.5rem;
