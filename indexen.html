@@ -1,5 +1,11 @@
+<!-- 
+  TODO :
+  1. the section for BUY AND BYE must be implemented.
+  2. the section for TAKE AWAY must be implemented in both
+     contact page and menu page and index page.
+ -->
 <!DOCTYPE html>
-<html lang="gr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,6 +13,28 @@
     <title>Anahita | Persian Restaurant</title>
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- font awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+    ></script>
 
     <!-- bootstrap -->
     <link
@@ -27,13 +55,11 @@
     />
     <!-- index css -->
     <link rel="stylesheet" href="./css/index.css" />
-    <!-- menu css -->
-    <link rel="stylesheet" href="./css/about-us.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/indexgr.html"
+        <a class="navbar-brand" href="/indexen.html"
           ><img src="./pics/logo.png" class="imageBrand"
         /></a>
         <button
@@ -61,7 +87,7 @@
             <li class="nav-item">
               <a
                 class="nav-link active"
-                href="/indexgr.html"
+                href="/indexen.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
                 >Home</a
               >
@@ -69,81 +95,115 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/about-usgr.html"
+                href="/about-usen.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                >Η ΙΣΤΟΡΙΑ ΜΑΣ</a
+                >Our Story</a
               >
             </li>
 
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/menugr.html"
+                href="/menuen.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                >ΜΕΝΟΥ</a
+                >Menu</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/contact-usgr.html"
+                href="/contact-usen.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                >ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</a
+                >Contact Us</a
               >
             </li>
 
-            <li class="nav-item dropdown">
+            <li class="nav-item">
               <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                class="nav-link"
+                href="/indexfa.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
+                ><i class="flag flag-ir"></i>فارسی</a
               >
-                ΓΛΩΣΣΑ
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="/about-usfa.html"
-                    style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                    >فارسی</a
-                  >
-                </li>
-
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="/about-us.html"
-                    style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                    >ENGLISH</a
-                  >
-                </li>
-              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/index.html"
+                style="color: rgb(66, 66, 57); font-size: 1.25rem"
+                ><i class="flag flag-gr"></i>ΕΛΛΗΝΙΚΑ</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <main class="bg-light">
-      <div class="mainDiv">
-        <div class="explanationDiv">
-          <h4>About Anahita!</h4>
-          <p>
-            Αναχιτα, το πρώτο περσικό εστιατοριο στην Αθήνα, εδώ και 31 χρονια
-            σερβίρει πιάτα με ξεχωριστές γεύσεις Ανατολής, από φρέσκα υλικά σε
-            αυθεντικές συνταγές. Στην Αναχιτα θα απολαύσεις ποικιλία από κρέας
-            και κοτόπουλο ψημένα με απλές γεύσεις μυρωδικών, ρύζι με σαφράν,
-            ροδόνερο πορτοκαλί και ιδιαίτερες παραδοσιακές σαλάτες σε μια έθνικ
-            κουζίνα που αξίζει να την δοκιμάσεις.
-          </p>
+    <main>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <!-- <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div> -->
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3500">
+            <img class="d-block w-100" alt="..." id="header1" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3500">
+            <img class="d-block w-100" alt="..." id="header2" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3500">
+            <img class="d-block w-100" alt="..." id="header3" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3500">
+            <img class="d-block w-100" alt="..." id="header4" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3500">
+            <img class="d-block w-100" alt="..." id="header5" />
+          </div>
+          <div class="carousel-item" data-bs-interval="3500">
+            <img class="d-block w-100" alt="..." id="header6" />
+          </div>
         </div>
-        <div class="pictureDiv">
-          <img src="./pics/majid.png" alt="majid mirkhosravi" />
-        </div>
+        <!-- <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
       </div>
     </main>
     <footer class="footerWrapper navbar-light bg-light">
@@ -179,19 +239,19 @@
           <p>
             Αναχιτα, το πρώτο περσικό εστιατοριο στην Αθήνα, εδώ και 31 χρονια
             σερβίρει πιάτα με ξεχωριστές γεύσεις Ανατολής, από...
-            <a href="/about-us">Read More.</a>
+            <a href="/about-usen.html">Read More.</a>
           </p>
         </div>
         <div class="openingHoursDiv">
-          <h3>Ωρες λειτουργίας</h3>
-          <h5 class="h5">Τρίτη - Σάββατο</h5>
+          <h3>Opening Hours</h3>
+          <h5 class="h5">Tuesday - Saturday</h5>
           <p>18 : 30 - 24 : 00</p>
-          <h5 class="h5">Κυριακή</h5>
+          <h5 class="h5">Sunday</h5>
           <p>12 : 00 - 21 : 00</p>
-          <h5 class="h5">Οι Δευτέρες είναι κλειστά!</h5>
+          <h5 class="h5">Mondays are closed !</h5>
         </div>
         <div class="locationDiv">
-          <h3>τοποθεσία</h3>
+          <h3>Location</h3>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1571.4685936649207!2d23.7909334007901!3d38.02524379786575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a198f15837befd%3A0x3af37333c0b1808c!2sAnahita!5e0!3m2!1sen!2sgr!4v1638007336178!5m2!1sen!2sgr"
             width="400"
@@ -201,9 +261,9 @@
             loading="lazy"
           ></iframe>
           <br />
-          <h5 class="h5">Διεύθυνση :</h5>
-          <p>Χρυσοστόμου Σμύρνης 3, Χαλάνδρι 152 33</p>
-          <h5 class="h5">Τηλέφωνο:</h5>
+          <h5 class="h5">Address :</h5>
+          <p>Chrisostomou Smirnis 3, Chalandri 152 33</p>
+          <h5 class="h5">Telephone :</h5>
           <p>210 68 91 222</p>
         </div>
         <div class="instagramDiv">
@@ -493,7 +553,7 @@
         </div>
       </div>
       <div class="socialMediaDiv">
-        <h4>Ακολουθήστε μας στα μέσα κοινωνικής δικτύωσης</h4>
+        <h4>Follow Us On Social Medias</h4>
         <p>
           <a href="https://www.facebook.com/anahita.persian.restaurant/"
             ><i class="bi bi-facebook"></i

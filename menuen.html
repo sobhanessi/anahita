@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="gr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,6 +7,28 @@
     <title>Anahita | Persian Restaurant</title>
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- font awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+    ></script>
 
     <!-- bootstrap -->
     <link
@@ -33,7 +55,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/indexgr.html"
+        <a class="navbar-brand" href="/indexen.html"
           ><img src="./pics/logo.png" class="imageBrand"
         /></a>
         <button
@@ -61,7 +83,7 @@
             <li class="nav-item">
               <a
                 class="nav-link active"
-                href="/indexgr.html"
+                href="/indexen.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
                 >Home</a
               >
@@ -69,67 +91,71 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/about-usgr.html"
+                href="/about-usen.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                >Η ΙΣΤΟΡΙΑ ΜΑΣ</a
+                >Our Story</a
               >
             </li>
 
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/menugr.html"
+                href="/menuen.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                >ΜΕΝΟΥ</a
+                >Menu</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="/contact-usgr.html"
+                href="/contact-usen.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                >ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ</a
+                >Contact Us</a
               >
             </li>
 
-            <li class="nav-item dropdown">
+            <li class="nav-item">
               <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                class="nav-link"
+                href="/menufa.html"
                 style="color: rgb(66, 66, 57); font-size: 1.25rem"
+                ><i class="flag flag-ir"></i>فارسی</a
               >
-                ΓΛΩΣΣΑ
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="/menufa.html"
-                    style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                    >فارسی</a
-                  >
-                </li>
+            </li>
 
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="/menu.html"
-                    style="color: rgb(66, 66, 57); font-size: 1.25rem"
-                    >ENGLISH</a
-                  >
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/menu.html"
+                style="color: rgb(66, 66, 57); font-size: 1.25rem"
+                ><i class="flag flag-gr"></i>ΕΛΛΗΝΙΚΑ</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <main class="bg-light">
-      <h3 class="foodHeader">ΟΡΕΚΤΙΚΑ :</h3>
+      <div class="d-flex justify-content-center align-items-center">
+        <div>
+          <a
+            class="nav-link"
+            href="/menufa.html"
+            style="color: rgb(66, 66, 57); font-size: 1.25rem"
+            ><i class="flag flag-ir"></i> فارسی</a
+          >
+        </div>
+
+        <div>
+          <a
+            class="nav-link"
+            href="/menu.html"
+            style="color: rgb(66, 66, 57); font-size: 1.25rem"
+            ><i class="flag flag-gr"></i> ΕΛΛΗΝΙΚΑ</a
+          >
+        </div>
+      </div>
+      <h3 class="foodHeader">Appetizers :</h3>
       <div
         class="
           menuItem
@@ -147,9 +173,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Ολιβιέ</h4>
+          <h4 class="menuItemHeader">Olivieh</h4>
           <p class="menuItemParagraph">
-            Πατάτα, αυγό, κοτόπουλο, πίκλες, μαγιονέζα
+            Potatoes - Eggs - Chicken - Pickles - Mayonnaise
           </p>
         </div>
         <div class="price">
@@ -173,8 +199,8 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Μαστμουσίρ</h4>
-          <p class="menuItemParagraph">Γιαούρτι με άοσμο σκόρδο</p>
+          <h4 class="menuItemHeader">Mast Mousir</h4>
+          <p class="menuItemParagraph">Yogurt - Odorless - Garlic</p>
         </div>
         <div class="price">€ 4.00</div>
       </div>
@@ -195,8 +221,8 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Μπουρανί</h4>
-          <p class="menuItemParagraph">Γιαούρτι με σπανάκι , σκόρδο</p>
+          <h4 class="menuItemHeader">Bourani</h4>
+          <p class="menuItemParagraph">Yogurt - Spinach - Garlic</p>
         </div>
         <div class="price">€ 4.00</div>
       </div>
@@ -217,8 +243,8 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Ναργκεσί</h4>
-          <p class="menuItemParagraph">Αυγό, σπανάκι, σκόρδο</p>
+          <h4 class="menuItemHeader">Nargesi</h4>
+          <p class="menuItemParagraph">Spinach - Eggs - Garlic</p>
         </div>
         <div class="price">€ 4.00</div>
       </div>
@@ -239,8 +265,8 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Ναζχατούν</h4>
-          <p class="menuItemParagraph">Γιαούρτι , καπνιστή μελιτζάνα, σκόρδο</p>
+          <h4 class="menuItemHeader">Nazkhatoon</h4>
+          <p class="menuItemParagraph">Yogurt - Smoked Eggplant - Garlic</p>
         </div>
         <div class="price">€ 4.00</div>
       </div>
@@ -261,11 +287,8 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Μαστοχιάρ</h4>
-          <p class="menuItemParagraph">
-            Γιαούρτι με αγγούρι , μέντα Κασκανεμτζούν Τηγανιτή μελιτζάνα με
-            καρύδι
-          </p>
+          <h4 class="menuItemHeader">Masto Khiar</h4>
+          <p class="menuItemParagraph">Yogurt - Cucumber - Mint</p>
         </div>
         <div class="price">€ 4.00</div>
       </div>
@@ -286,8 +309,8 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Κασκανεμτζούν</h4>
-          <p class="menuItemParagraph">Τηγανιτή μελιτζάνα με καρύδι</p>
+          <h4 class="menuItemHeader">Kashke Bademjoon</h4>
+          <p class="menuItemParagraph">Fried Eggplants - Walnuts</p>
         </div>
         <div class="price">€ 7.00</div>
       </div>
@@ -308,9 +331,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Μιρζά γασεμί</h4>
+          <h4 class="menuItemHeader">Mirza Ghasemi</h4>
           <p class="menuItemParagraph">
-            Αυγό , καπνιστή μελιτζάνα, ντομάτα , σκόρδο
+            Eggs - Smoked Eggplant - Tomato - Garlic
           </p>
         </div>
         <div class="price">€ 7.00</div>
@@ -332,9 +355,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Κουφτέ μπερεντζί</h4>
+          <h4 class="menuItemHeader">Koufteh Berenji</h4>
           <p class="menuItemParagraph">
-            Κεφτέδες (κιμά μοσχάρυύ, φάβα, ρύζ, μυρωδικά
+            Minced Veal - Herbs - Yellow Split Peas - Rice - Tomato Sauce
           </p>
         </div>
         <div class="price">€ 6.50</div>
@@ -356,9 +379,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Κοτλέτ</h4>
+          <h4 class="menuItemHeader">Kotlet</h4>
           <p class="menuItemParagraph">
-            Παραδοσιακά Περσικά μπιφτέκια με κιμά ( μοσχάρι ) , πατάτα
+            Traditional Persian Burgers - Herbs - Potatoes
           </p>
         </div>
         <div class="price">€ 6.50</div>
@@ -380,9 +403,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Λαχματζούν</h4>
+          <h4 class="menuItemHeader">lakhmajoon</h4>
           <p class="menuItemParagraph">
-            4πίτες με κιμά (μοσχάρι) , κρεμμύδι καυτερή πιπεριά
+            4 Pieces Of Pitta In Wrapped- Minced Veal - Onion - Hot Pepper
           </p>
         </div>
         <div class="price">€ 6.50</div>
@@ -404,7 +427,7 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Πατάτες τηγανιτές</h4>
+          <h4 class="menuItemHeader">Fried Potatoes</h4>
           <p class="menuItemParagraph"></p>
         </div>
         <div class="price">€ 3.00</div>
@@ -426,7 +449,7 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Πατάτες τηγανιτές με τυρί</h4>
+          <h4 class="menuItemHeader">Fried Potatoes With Cheese</h4>
           <p class="menuItemParagraph"></p>
         </div>
         <div class="price">€ 3.50</div>
@@ -448,7 +471,7 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Περσικό ψωμί</h4>
+          <h4 class="menuItemHeader">Persian Bread</h4>
           <p class="menuItemParagraph"></p>
         </div>
         <div class="price">€ 1.50</div>
@@ -470,8 +493,8 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Ας Ρεστε</h4>
-          <p class="menuItemParagraph"></p>
+          <h4 class="menuItemHeader">Ash Reshteh</h4>
+          <p class="menuItemParagraph">Persian Greens - Bean and Noodle Soup</p>
         </div>
         <div class="price">€ 5.00</div>
       </div>
@@ -492,10 +515,8 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Σούπα με όσπρια και σπανάκι</h4>
-          <p class="menuItemParagraph">
-            φιδές ρυζιού Σούπα Τζο Σούπα με κριθάρι , καρότo, κρέμα γάλακτος
-          </p>
+          <h4 class="menuItemHeader">Jo Soup</h4>
+          <p class="menuItemParagraph">Barley - Carrot and Cream Soup</p>
         </div>
         <div class="price">€ 5.00</div>
       </div>
@@ -516,7 +537,7 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Τυρί στο φούρνο με κόκκινο σός</h4>
+          <h4 class="menuItemHeader">Saganaki Cheese With Red Sauce</h4>
           <p class="menuItemParagraph"></p>
         </div>
         <div class="price">€ 4.00</div>
@@ -532,13 +553,13 @@
       >
         <div class="menuItemImageDiv">
           <img
-            src="./pics/menu/cheesecroquettes.jpg"
+            src="./pics/menu/cheesecroquettes.jpeg"
             alt="cheese croquettes"
             class="menuItemImage rounded"
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Τυροκροκέτες με κόκκινο σός</h4>
+          <h4 class="menuItemHeader">Cheese Croquettes With Red Sauce</h4>
           <p class="menuItemParagraph"></p>
         </div>
         <div class="price">€ 4.00</div>
@@ -560,9 +581,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Σοσίς μπανδαρί</h4>
+          <h4 class="menuItemHeader">Sosis Bandari</h4>
           <p class="menuItemParagraph">
-            Λουκάνικο, κρεμμύδι , καυτερή πιπεριά , κόκκινη σάλτσα
+            Hot Dog - Onion - Hot Pepper - Red Sauce
           </p>
         </div>
         <div class="price">€ 4.00</div>
@@ -584,13 +605,13 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Χουμούς</h4>
-          <p class="menuItemParagraph"></p>
+          <h4 class="menuItemHeader">Hummus</h4>
+          <p class="menuItemParagraph">Chickpeas - Garlic - Tahini</p>
         </div>
         <div class="price">€ 4.00</div>
       </div>
       <br /><br /><br />
-      <h3 class="foodHeader">Κύριο πιάτο :</h3>
+      <h3 class="foodHeader">Main Course</h3>
       <div
         class="
           menuItem
@@ -608,9 +629,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Τζουτζέ κεμπάπ</h4>
+          <h4 class="menuItemHeader">Jouje Kebab</h4>
           <p class="menuItemParagraph">
-            Σουβλάκι κοτόπουλο , ρύζ, ντομάτα ψητή
+            Skewered Chicken - Roasted Tomatoes - Rice with Saffron
           </p>
         </div>
         <div class="price">€ 10.00</div>
@@ -632,9 +653,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Κεμπάπ μπάργκ</h4>
+          <h4 class="menuItemHeader">Kebab Barg</h4>
           <p class="menuItemParagraph">
-            Φιλέτο μοσχάρι , ρύζι ή πατάτες, ντομάτα ψητή
+            Beef Fillet - Roasted Tomatoes - Rice with Saffron
           </p>
         </div>
         <div class="price">€ 12.00</div>
@@ -656,9 +677,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Κεμπάπ κουμπιντέ</h4>
+          <h4 class="menuItemHeader">Kebab Koubideh</h4>
           <p class="menuItemParagraph">
-            Κεμπάπ από αρνίσιο κιμά, πίτα, ντομάτα ψητή
+            Two Pieces of Minced Lamb - Roasted Tomatoes - Pitta Bread
           </p>
         </div>
         <div class="price">€ 9.00</div>
@@ -680,9 +701,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Τσελό κεμπάπ</h4>
+          <h4 class="menuItemHeader">Chelo Kebab</h4>
           <p class="menuItemParagraph">
-            Κεμπάπ από αρνίσιο κιμά, ρύζι ή πατάτες , ντομάτα ψητή
+            Two Pieces of Minced Lamb - Rice with Saffron - Roasted Tomatoes
           </p>
         </div>
         <div class="price">€ 11.00</div>
@@ -704,9 +725,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Κεμπάπ τσεντζέ</h4>
+          <h4 class="menuItemHeader">Kebab Chenjeh</h4>
           <p class="menuItemParagraph">
-            Κομμάτια αρνίσιο , ρύζιή πατάτες , ντομάτα ψητή
+            Skewered Lamb - Roasted Tomatoes - Rice with Saffron
           </p>
         </div>
         <div class="price">€ 11.00</div>
@@ -728,9 +749,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Σολτάνι</h4>
+          <h4 class="menuItemHeader">Soltani</h4>
           <p class="menuItemParagraph">
-            Φιλέτο μοσχάρι και κεμπάπ από αρνίσιο κιμά, πίτα, ντομάτα ψητή
+            One Koubideh - One Barg - Roasted Tomatoes - Pitta Bread
           </p>
         </div>
         <div class="price">€ 12.00</div>
@@ -752,10 +773,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Σολτάνι</h4>
+          <h4 class="menuItemHeader">Soltani</h4>
           <p class="menuItemParagraph">
-            Φιλέτο μοσχι και κεμπάπ από αρνίσιο κιμά, ρύζι ή πατάτες . ντομάτα
-            ψητή
+            One Koubideh - One Barg - Roasted Tomatoes - Rice with Saffron
           </p>
         </div>
         <div class="price">€ 14.00</div>
@@ -777,9 +797,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Δίσκος κεμπάπ για 2 ατ.</h4>
+          <h4 class="menuItemHeader">Kebab Mix For 2</h4>
           <p class="menuItemParagraph">
-            κουμπιντέ , 1 μπάργκ, 1 σουβλάκι κοτόπουλο
+            One Minced Lamb - One Skewered chicken - One Fillet Beef Kebab
           </p>
         </div>
         <div class="price">€ 20.00</div>
@@ -801,9 +821,10 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Δίσκος κεμπάπ για 4 ατ.</h4>
+          <h4 class="menuItemHeader">Kebab Mix For 4</h4>
           <p class="menuItemParagraph">
-            2 κουμπιντέ - 1 σουβλάκι κοτόπουλο - 1 μπάργκ - 1 τσεντζέ
+            Two Minced Lamb - One Skewered Chicken - One Fillet of Beef - One
+            Skewered Lamb Kebabs
           </p>
         </div>
         <div class="price">€ 32.00</div>
@@ -818,11 +839,17 @@
         "
       >
         <div class="menuItemImageDiv">
-          <img src="./pics/menu/" alt="" class="menuItemImage rounded" />
+          <img
+            src="./pics/menu/superdish.jpg"
+            alt=""
+            class="menuItemImage rounded"
+          />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Δίσκος κεμπάπ special</h4>
-          <p class="menuItemParagraph">Διάφορα κεμπάπ και ρύζια για 6 ατ.</p>
+          <h4 class="menuItemHeader">Super Dishes</h4>
+          <p class="menuItemParagraph">
+            Different Kebabs and Rice for 6 People
+          </p>
         </div>
         <div class="price">€ 53.00</div>
       </div>
@@ -843,9 +870,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Ζερέσκ πολό</h4>
+          <h4 class="menuItemHeader">Zereshk Polo</h4>
           <p class="menuItemParagraph">
-            Ρύζι, φραγκοστάφυλο, φιστίκι Αιγίνης, αμύγδαλο, κοτόπουλο
+            Rice with Saffron - Redcurrants - Pistachios - Almonds - Chicken
           </p>
         </div>
         <div class="price">€ 11.00</div>
@@ -867,10 +894,10 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Σιρίν πολό</h4>
+          <h4 class="menuItemHeader">Shirin Polo</h4>
           <p class="menuItemParagraph">
-            Ρύζι, φλούδα πορτοκαλιού, αμύγδαλο, φιστίκι Αιγγίνης,
-            καρότο,κοτόπουλο
+            Rice - Saffron - Orange Peel - Almonds - Pistachios - Carrot -
+            Chicken
           </p>
         </div>
         <div class="price">€ 11.00</div>
@@ -892,10 +919,8 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">
-            Ζερέσκ πολό ή Σιρίν πολό Χωρίς κοτόπουλο
-          </h4>
-          <p class="menuItemParagraph">Χωρίς κοτόπουλο</p>
+          <h4 class="menuItemHeader">Zereshk Polo or Shirin Polo</h4>
+          <p class="menuItemParagraph">Without Chicken</p>
         </div>
         <div class="price">€ 6.00</div>
       </div>
@@ -916,9 +941,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Μπαγαλί πολό</h4>
+          <h4 class="menuItemHeader">Baghali Polo</h4>
           <p class="menuItemParagraph">
-            Ρύζι, άνηθος, κουκιά, κοτόπουλο ή αρνί
+            Rice with Saffron - Dill - Broad Beans - Chicken or Lamb
           </p>
         </div>
         <div class="price">€ 11.00</div>
@@ -940,9 +965,10 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Χορέστε γκεϊμέ</h4>
+          <h4 class="menuItemHeader">Khoreshte Gheime</h4>
           <p class="menuItemParagraph">
-            Ρύζι με σαφράν και κόκκινη σάλτσα με φάβα, μοσχαρίσιο κρέας, λεμόνι
+            Rice with Saffron - Tomato Sauce with Veal - Yellow Split Peas -
+            Lemon
           </p>
         </div>
         <div class="price">€ 11.00</div>
@@ -964,9 +990,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Χορέστε εσφενάτζ</h4>
+          <h4 class="menuItemHeader">Khoreshte Esfenaj</h4>
           <p class="menuItemParagraph">
-            Ρύζι με σαφράν και πράσινη σάλτσα με σπανάκι, κοτόπουλο
+            Rice with Saffron - Green Sauce with Spinach - Chicken
           </p>
         </div>
         <div class="price">€ 11.00</div>
@@ -988,10 +1014,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Χορέστε γκορμέ σαμπζί</h4>
+          <h4 class="menuItemHeader">Khoreshte Ghorme Sabzi</h4>
           <p class="menuItemParagraph">
-            Ρύζι με σαφράν και πράσινη σάλτσα με μυρωδικά μοσχαρίσιο κρέας,
-            λεμόνι
+            Rice with Saffron - Green Sauce with Herbs - Veal - Kidney Beans
           </p>
         </div>
         <div class="price">€ 11.00</div>
@@ -1013,9 +1038,10 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Χορέστε φεσεντζούν</h4>
+          <h4 class="menuItemHeader">Khoreshte Fesenjan</h4>
           <p class="menuItemParagraph">
-            Ρύζι με σαφράν και σάλτσα με πελτέροδιού , καρύδι , κεφτεδάκια
+            Rice with Saffron - Sauce with Pomegranate Paste - Walnuts - Veal -
+            Meatballs
           </p>
         </div>
         <div class="price">€ 12.00</div>
@@ -1037,9 +1063,9 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Μπιφτέκι Special με γέμιση τυρί</h4>
+          <h4 class="menuItemHeader">Bifteki Special With Cheese Filling</h4>
           <p class="menuItemParagraph">
-            Μπιφτέκι από αρνίσιο κιμά , ντομάτα , πατάτες
+            Lamb Mincemeat - Cheese - Tomatoes - Potatoes
           </p>
         </div>
         <div class="price">€ 9.00</div>
@@ -1061,13 +1087,13 @@
           />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Περσικό ρύζι</h4>
-          <p class="menuItemParagraph">Ρύζι, σαφράν</p>
+          <h4 class="menuItemHeader">Persian Rice</h4>
+          <p class="menuItemParagraph">Rice with Saffron</p>
         </div>
         <div class="price">€ 4.00</div>
       </div>
       <br /><br /><br />
-      <h3 class="foodHeader">Σαλάτες :</h3>
+      <h3 class="foodHeader">Salads</h3>
       <div
         class="
           menuItem
@@ -1078,12 +1104,16 @@
         "
       >
         <div class="menuItemImageDiv">
-          <img src="./pics/menu/anahitasalad.jpg" alt="" class="menuItemImage rounded" />
+          <img
+            src="./pics/menu/anahitasalad.jpg"
+            alt=""
+            class="menuItemImage rounded"
+          />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Αναχίτα</h4>
+          <h4 class="menuItemHeader">Anahita Salad</h4>
           <p class="menuItemParagraph">
-            Λάχανο κόκκινο και λευκό , καρότο, καλαμπ λάδι, ξύδι
+            White Cabbage - Red Cabbage - Carrot - Corn - Olive Oil - Vinegar
           </p>
         </div>
         <div class="price">€ 7.00</div>
@@ -1098,12 +1128,16 @@
         "
       >
         <div class="menuItemImageDiv">
-          <img src="./pics/menu/persiansalad.jpg" alt="" class="menuItemImage rounded" />
+          <img
+            src="./pics/menu/persiansalad.jpg"
+            alt=""
+            class="menuItemImage rounded"
+          />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Περσική σαλάτα</h4>
+          <h4 class="menuItemHeader">Persian Salad</h4>
           <p class="menuItemParagraph">
-            Μαρούλι, ντομάτα, αγγούρι, καρότο, σως γιαουρτιού
+            Lettuce - Tomato - Cucumber - Carrot - Yogurt Sauce
           </p>
         </div>
         <div class="price">€ 7.00</div>
@@ -1118,12 +1152,16 @@
         "
       >
         <div class="menuItemImageDiv">
-          <img src="./pics/menu/karafssalad.jpg" alt="" class="menuItemImage rounded" />
+          <img
+            src="./pics/menu/karafssalad.jpg"
+            alt=""
+            class="menuItemImage rounded"
+          />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Σαλάτα κράφς</h4>
+          <h4 class="menuItemHeader">Karafs Salad</h4>
           <p class="menuItemParagraph">
-            Σέλερι, μήλο, ραπανάκι, σως γιαουρτιού
+            Celery - Apple - Radish - Yogurt Sauce
           </p>
         </div>
         <div class="price">€ 6.00</div>
@@ -1138,12 +1176,16 @@
         "
       >
         <div class="menuItemImageDiv">
-          <img src="./pics/menu/shirazisalad.jpg" alt="" class="menuItemImage rounded" />
+          <img
+            src="./pics/menu/shirazisalad.jpg"
+            alt=""
+            class="menuItemImage rounded"
+          />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Σιραζί</h4>
+          <h4 class="menuItemHeader">Shirazi Salad</h4>
           <p class="menuItemParagraph">
-            Ψιλοκομμένη ντομάτα, αγγούρι , κρεμμύδι λεμόν, λάδι
+            Tomato - Cucumber - Onion - Lemon Juice - Olive Oil
           </p>
         </div>
         <div class="price">€ 6.00</div>
@@ -1158,12 +1200,17 @@
         "
       >
         <div class="menuItemImageDiv">
-          <img src="./pics/menu/greensalad.jpg" alt="" class="menuItemImage rounded" />
+          <img
+            src="./pics/menu/greensalad.jpg"
+            alt=""
+            class="menuItemImage rounded"
+          />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Πράσινη σαλάτα</h4>
+          <h4 class="menuItemHeader">Green Salad</h4>
           <p class="menuItemParagraph">
-            Μαρούλι, ρόκα, ντομάτα, ελιές , παρμεζάνα, μπαλσάμικο
+            Lettuce - Arugula - Tomato - Olives - Parmesan Cheese - Balsamic
+            Vinegar - Olive Oil
           </p>
         </div>
         <div class="price">€ 8.00</div>
@@ -1178,18 +1225,22 @@
         "
       >
         <div class="menuItemImageDiv">
-          <img src="./pics/menu/saladwithroquefort.jpg" alt="" class="menuItemImage rounded" />
+          <img
+            src="./pics/menu/saladwithroquefort.jpg"
+            alt=""
+            class="menuItemImage rounded"
+          />
         </div>
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Σαλάτα ροκφόρ</h4>
+          <h4 class="menuItemHeader">Salad With Roquefort Cheese</h4>
           <p class="menuItemParagraph">
-            Μαρούλι, ντομάτα , αγγούρι , καρότο, πιπεριά, σως ροκφρ
+            Lettuce - Tomato - Cucumber - Carrot - Pepper - Roquefort Sauce
           </p>
         </div>
         <div class="price">€ 8.00</div>
       </div>
       <br /><br /><br />
-      <h3 class="foodHeader">Ποτά :</h3>
+      <h3 class="foodHeader">Beverages</h3>
       <div
         class="
           menuItem
@@ -1339,7 +1390,7 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Λευκό Νεμέας (Μοσχοφίλερο) 500ml</h4>
+          <h4 class="menuItemHeader">White Wine 500ml</h4>
         </div>
         <div class="price">€ 5.00</div>
       </div>
@@ -1354,12 +1405,13 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Ερυθρό Νεμέας (Αγιωργίτικο ) 500ml</h4>
+          <h4 class="menuItemHeader">Red Wine 500ml</h4>
         </div>
         <div class="price">€ 5.00</div>
       </div>
       <br /><br />
-      <h3 class="foodHeader">Coffee / TeaΚΑΦΕΣ/ ΤΣΑΙ
+      <h3 class="foodHeader">Coffee / Tea</h3>
+      <div
         class="
           menuItem
           rounded
@@ -1370,7 +1422,7 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Εσπρέσο</h4>
+          <h4 class="menuItemHeader">Espresso</h4>
         </div>
         <div class="price">€ 2.50</div>
       </div>
@@ -1385,7 +1437,7 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Φίλ</h4>
+          <h4 class="menuItemHeader">Filter Coffee</h4>
         </div>
         <div class="price">€ 2.50</div>
       </div>
@@ -1400,7 +1452,7 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Ελληνικός</h4>
+          <h4 class="menuItemHeader">Greek Coffee</h4>
         </div>
         <div class="price">€ 2.00</div>
       </div>
@@ -1415,7 +1467,7 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Περσικό τσάι</h4>
+          <h4 class="menuItemHeader">Persian Tea</h4>
         </div>
         <div class="price">€ 1.50</div>
       </div>
@@ -1433,7 +1485,7 @@
       >
         <div class="menuItemDescription">
           <h4 class="menuItemHeader">
-            ΓΛΥΚΑ Περσικό παγωτό (σαφράν, φιστίκι Αrγίνης , ροδόνερο) 
+            Persian Ice Cream (Saffron - Peanuts - Rose Water)
           </h4>
         </div>
         <div class="price">€ 3.50</div>
@@ -1449,7 +1501,7 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Εκμέκ παγωτό </h4>
+          <h4 class="menuItemHeader">Ekmek With Ice Cream</h4>
         </div>
         <div class="price">€ 5.00</div>
       </div>
@@ -1464,7 +1516,7 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Καρυδόπιτα παγωτό</h4>
+          <h4 class="menuItemHeader">Walnut Pie With Ice Cream</h4>
         </div>
         <div class="price">€ 5.00</div>
       </div>
@@ -1479,7 +1531,7 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Ραβανί παγωτό</h4>
+          <h4 class="menuItemHeader">Ravani With Ice Cream</h4>
         </div>
         <div class="price">€ 5.00</div>
       </div>
@@ -1494,7 +1546,7 @@
         "
       >
         <div class="menuItemDescription">
-          <h4 class="menuItemHeader">Φαλουντέ</h4>
+          <h4 class="menuItemHeader">Faloude</h4>
         </div>
         <div class="price">€ 4.00</div>
       </div>
@@ -1532,19 +1584,19 @@
           <p>
             Αναχιτα, το πρώτο περσικό εστιατοριο στην Αθήνα, εδώ και 31 χρονια
             σερβίρει πιάτα με ξεχωριστές γεύσεις Ανατολής, από...
-            <a href="/about-us">Read More.</a>
+            <a href="/about-usen.html">Read More.</a>
           </p>
         </div>
         <div class="openingHoursDiv">
-          <h3>Ωρες λειτουργίας</h3>
-          <h5 class="h5">Τρίτη - Σάββατο</h5>
+          <h3>Opening Hours</h3>
+          <h5 class="h5">Tuesday - Saturday</h5>
           <p>18 : 30 - 24 : 00</p>
-          <h5 class="h5">Κυριακή</h5>
+          <h5 class="h5">Sunday</h5>
           <p>12 : 00 - 21 : 00</p>
-          <h5 class="h5">Οι Δευτέρες είναι κλειστά!</h5>
+          <h5 class="h5">Mondays are closed !</h5>
         </div>
         <div class="locationDiv">
-          <h3>τοποθεσία</h3>
+          <h3>Location</h3>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1571.4685936649207!2d23.7909334007901!3d38.02524379786575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a198f15837befd%3A0x3af37333c0b1808c!2sAnahita!5e0!3m2!1sen!2sgr!4v1638007336178!5m2!1sen!2sgr"
             width="400"
@@ -1554,9 +1606,9 @@
             loading="lazy"
           ></iframe>
           <br />
-          <h5 class="h5">Διεύθυνση :</h5>
-          <p>Χρυσοστόμου Σμύρνης 3, Χαλάνδρι 152 33</p>
-          <h5 class="h5">Τηλέφωνο:</h5>
+          <h5 class="h5">Address :</h5>
+          <p>Chrisostomou Smirnis 3, Chalandri 152 33</p>
+          <h5 class="h5">Telephone :</h5>
           <p>210 68 91 222</p>
         </div>
         <div class="instagramDiv">
@@ -1846,7 +1898,7 @@
         </div>
       </div>
       <div class="socialMediaDiv">
-        <h4>Ακολουθήστε μας στα μέσα κοινωνικής δικτύωσης</h4>
+        <h4>Follow Us On Social Medias</h4>
         <p>
           <a href="https://www.facebook.com/anahita.persian.restaurant/"
             ><i class="bi bi-facebook"></i
